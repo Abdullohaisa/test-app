@@ -84,6 +84,7 @@ const styles = StyleSheet.create({
     flex: 1,
     paddingHorizontal: screens.width * 0.04,
     justifyContent: "flex-end",
+    gap: 20,
   },
   logoContainer: {
     alignItems: "center",
@@ -93,7 +94,7 @@ const styles = StyleSheet.create({
     fontSize: 36,
     fontWeight: "bold",
     color: "#fff",
-    marginTop: 10,
+    marginTop: 20,
   },
   subtitleText: {
     fontSize: 16,

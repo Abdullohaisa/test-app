@@ -6,7 +6,7 @@ import { GestureHandlerRootView } from "react-native-gesture-handler";
 const Layout = () => {
   return (
     <GestureHandlerRootView style={{ flex: 1 }}>
-      <StatusBar />
+      <StatusBar style="light" />
       <Stack screenOptions={{ headerShown: false, navigationBarColor: "#fff" }}>
         <Stack.Screen
           name="login"
